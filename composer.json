@@ -1,0 +1,32 @@
+{
+    "name": "chenglir/scanner",
+    "description": "for study",
+    "keywords": ["url", "scanner", "csv"],
+    "homepage": "http://example.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chenglir",
+            "homepage": "https://example.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "help@example.com"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.3"
+    },
+    "suggest": {
+        "league/csv": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Myself\\Tools\\": "src/"
+        }
+    }
+}
